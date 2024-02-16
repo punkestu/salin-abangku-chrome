@@ -1,0 +1,10 @@
+{
+    "manifest_version": 3,
+    "name": "Salin Abangku",
+    "version": "0.0.1",
+    "description": "An app to generate slang",
+    "action": {
+        "default_popup": "popup.html",
+        "default_title": "Salin Abangku"
+    }
+}
