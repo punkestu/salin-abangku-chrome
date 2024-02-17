@@ -4,12 +4,31 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Salin Abangku</title>
-        <link rel="stylesheet" href="popup.css">
+        <link rel="stylesheet" href="popup.css" />
     </head>
     <body>
         <div class="flex p-4">
-            <input type="text" name="slang" id="slang" disabled class="border px-2 py-1" />
-            <button id="gen" class="px-2 py-1 flex items-center justify-center bg-blue-500 text-white">Generate</button>
+            <div class="relative">
+                <button
+                    class="absolute left-0 opacity-0 w-full h-full bg-blue-500 text-white"
+                    id="copy"
+                >
+                    Copy
+                </button>
+                <input
+                    type="text"
+                    name="slang"
+                    id="slang"
+                    disabled
+                    class="bg-slate-50 border px-2 py-1"
+                />
+            </div>
+            <button
+                id="gen"
+                class="px-2 py-1 flex items-center justify-center bg-blue-500 text-white"
+            >
+                Generate
+            </button>
         </div>
 
         <script src="popup.js"></script>
